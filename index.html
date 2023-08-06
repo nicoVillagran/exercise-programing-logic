@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Exercises with JS</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* body {
+        background-color: rgb(29, 27, 27);
+        color: rgb(245, 249, 253);
+      } */
+      button {
+        cursor: pointer;
+        display: block;
+        margin-top: 10px;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 
+      sm -> de 640px hacia arriba
+      md -> de 768px hacia arriba
+      lg -> de 1024px hacia arriba
+      xl -> de 1280px hacia arriba
+      2xl -> de 1536px hacia arriba
+     -->
+  </head>
+  <body class="">
+    <h1 class="text-xl text-center leading-9">Exercises with <strong class="text-yellow-400">Vanilla JS</strong></h1>
+
+    <br>
+    <h3 class="font-medium pl-2 mx-auto w-5/6 sm:w-4/5 relative before:w-5/6 before:h-[0.3px] before:bg-zinc-800/50 before:absolute before:top-0 before:bottom-0 before:right-2 before:m-auto">Exercises</h3>
+    <br>
+    <section class="grid grid-cols-1 gap-2 mx-auto w-5/6 sm:w-4/5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+      <button class="outline outline-1 outline-zinc-500/75 bg-zinc-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-countChar">Contador de caracters</button>
+      <button class="outline outline-1 outline-gray-500/75 bg-gray-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-cutString">Cortar texto</button>
+      <button class="outline outline-1 outline-gray-500/75 bg-gray-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-splitString">Separar texto</button>
+      <button class="outline outline-1 outline-gray-500/75 bg-gray-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-repeatString">Repetir texto</button>
+      <button class="outline outline-1 outline-gray-500/75 bg-gray-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-reverseString">Invertir texto</button>
+      <button class="outline outline-1 outline-gray-500/75 bg-gray-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-findString">Encontrar palabra</button>
+      <button class="outline outline-1 outline-gray-500/75 bg-gray-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-palindromo">Es palindromo</button>
+      <button class="outline outline-1 outline-gray-500/75 bg-gray-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-delPattern">Borrar patron</button>
+      <button class="outline outline-1 outline-gray-500/75 bg-gray-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-randomNum">Random Number</button>
+      <button class="outline outline-1 outline-gray-500/75 bg-gray-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-getFactory">Get Factory</button>
+      <button class="outline outline-1 outline-gray-500/75 bg-gray-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-isPrimeNumber">Prime number</button>
+      <button class="outline outline-1 outline-gray-500/75 bg-gray-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-isPar">Par number</button>
+      <button class="outline outline-1 outline-gray-500/75 bg-gray-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-degreesConverter">convert degrees</button>
+      <button class="outline outline-1 outline-gray-500/75 bg-gray-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-discount">discount</button>
+      <button class="outline outline-1 outline-gray-500/75 bg-gray-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-amountDays">amountDays</button>
+      <button class="outline outline-1 outline-gray-500/75 bg-gray-200/10 text-gray-500 rounded py-2 px-2 truncate hover:outline-yellow-500/75 hover:bg-yellow-200/20 hover:text-yellow-600" id="btn-binary">Binary</button>
+    </section>
+
+    <!-- #4B4B4B -> black color -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
